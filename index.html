@@ -62,3 +62,132 @@
 
     <section class="hero" aria-labelledby="why-title">
       <div class="card">
+        <h2 id="why-title">为什么要保护动物？</h2>
+        <p>动物在生态系统中扮演关键角色：传粉、种子传播、维持食物链平衡、净化环境。失去其中一种物种，可能会引起连锁反应，影响人类的食物安全与生活环境。</p>
+
+        <div class="stats" aria-hidden>
+          <div class="stat"><span>生物多样性</span><strong>不可替代</strong></div>
+          <div class="stat"><span>生态平衡</span><strong>需要守护</strong></div>
+          <div class="stat"><span>共同家园</span><strong>人人有责</strong></div>
+        </div>
+
+        <h3 style="margin-top:16px">我们面临的主要威胁</h3>
+        <div class="threats">
+          <div class="threat">
+            <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=60" alt="栖息地被破坏的照片">
+            <div>
+              <strong>栖息地破坏</strong>
+              <p class="muted">城市化、砍伐、农业扩张导致许多动物失去家园。</p>
+            </div>
+          </div>
+
+          <div class="threat">
+            <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?auto=format&fit=crop&w=400&q=60" alt="非法偷猎">
+            <div>
+              <strong>非法偷猎与贸交易</strong>
+              <p class="muted">象牙、犀牛角等非法贸易严重威胁某些物种存在。</p>
+            </div>
+          </div>
+
+          <div class="threat">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=400&q=60" alt="污染环境">
+            <div>
+              <strong>污染与气候变化</strong>
+              <p class="muted">塑料、化学污染和气候变化改变生态条件，影响动物生存。</p>
+            </div>
+          </div>
+        </div>
+
+        <h3 style="margin-top:14px">我们能做什么？</h3>
+        <ul>
+          <li>减少使用一次性塑料，参与清理活动。</li>
+          <li>支持合法、负责任的环保组织与项目。</li>
+          <li>在日常生活中选择可持续消费，减少不必要的浪费。</li>
+          <li>如果发现受伤动物或疑似偷猎，请及时联系当地野生动物救助机构或执法部门。</li>
+        </ul>
+
+        <div class="actions">
+          <a class="btn" href="#take-action">立即行动</a>
+          <a class="btn ghost" href="#species">了解濒危物种</a>
+        </div>
+      </div>
+
+      <aside class="card" aria-labelledby="join-title">
+        <h3 id="join-title">加入我们</h3>
+        <p>成为保护者：无论是捐赠、志愿服务或向身边的人传播知识，每个人都可以发挥作用。</p>
+
+        <div style="margin-top:12px">
+          <form class="search" onsubmit="event.preventDefault();alert('感谢关注！请前往相关组织官网进行注册。')">
+            <input type="email" placeholder="输入你的邮箱以获取行动指南" aria-label="邮箱">
+            <button class="btn" type="submit">订阅</button>
+          </form>
+        </div>
+
+        <h4 style="margin-top:14px">快速资源</h4>
+        <ul>
+          <li><a href="#">本地救助机构列表（示例）</a></li>
+          <li><a href="#">如何举报非法交易</a></li>
+          <li><a href="#">参与志愿者活动</a></li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="card" id="species" aria-labelledby="species-title" style="margin-top:18px">
+      <h2 id="species-title">部分需要关注的物种（示例）</h2>
+      <p class="lead">以下卡片展示示例物种。你可以替换图片与文字，放入你所在地区的濒危物种信息。</p>
+
+      <div class="species" role="list">
+        <article class="item" role="listitem">
+          <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=800&q=60" alt="雪豹的照片">
+          <h3>雪豹</h3>
+          <p>雪豹栖息在高山地区，因栖息地丧失和偷猎面临威胁。</p>
+          <p><small>保护建议：支持栖息地保护与反偷猎行动。</small></p>
+        </article>
+
+        <article class="item" role="listitem">
+          <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=800&q=60" alt="海龟的照片">
+          <h3>海龟</h3>
+          <p>海洋垃圾和非法捕捞严重威胁海龟种群。</p>
+          <p><small>保护建议：减少塑料使用并参与海滩清洁。</small></p>
+        </article>
+
+        <article class="item" role="listitem">
+          <img src="https://images.unsplash.com/photo-1486911278844-66a36de5d8d6?auto=format&fit=crop&w=800&q=60" alt="大象的照片">
+          <h3>大象</h3>
+          <p>象牙盗猎和栖息地破碎化对大象造成严重影响。</p>
+          <p><small>保护建议：支持反偷猎组织并提高消费选择意识。</small></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="card" id="take-action" style="margin-top:18px">
+      <h2>行动指南</h2>
+      <ol>
+        <li><strong>学习并传播：</strong>了解本地物种与威胁，通过社交媒体或线下活动分享知识。</li>
+        <li><strong>参与志愿：</strong>加入当地保护组织或参加一次清理活动。</li>
+        <li><strong>支持科学：</strong>为研究与救助项目提供资助或物资支持。</li>
+        <li><strong>负责任的旅游：</strong>尊重野生动物，不喂食、不打扰它们的栖息地。</li>
+      </ol>
+
+      <p style="margin-top:12px">如果你需要我把这个页面打包为单个 HTML 文件下载或转换为 PPT，请告诉我你的要求（例如：文件名、是否需要中文/英文双语、是否添加你组织的标志）。</p>
+    </section>
+
+    <footer>
+      <p>© <span id="year"></span> 保护动物行动。一起为地球的未来努力。</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // 简单无障碍跳转：回到顶部
+    (function(){
+      // 如果用户按下 "h" 键，聚焦到页面标题（示例快捷键）
+      document.addEventListener('keydown', function(e){
+        if(e.key.toLowerCase() === 'h'){
+          var el = document.querySelector('h1'); if(el) el.scrollIntoView({behavior:'smooth'});
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
